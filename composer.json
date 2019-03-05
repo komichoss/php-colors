@@ -13,16 +13,19 @@
 		}
 	],
 	"bin": [
-        "php-colors"
+        "colors"
     ],
+	"require-dev": {
+        "phpunit/phpunit" : "~7.0"
+    },
 	"autoload": {
 		"psr-4": {
-			"komicho\\": "/src"
+			"Komicho\\": "/src"
 		}
 	},
 	"autoload-dev": {
         "psr-4": {
-            "komicho\\Test\\": "tests"
+            "Komicho\\Test\\": "tests"
         }
     }
 }
