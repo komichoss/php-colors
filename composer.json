@@ -1,0 +1,28 @@
+{
+	"name": "komicho/php-colors",
+	"type": "library",
+	"description": "Convert symbolic time into usable concept time",
+	"keywords": ["php", "packages", "SymbolicTime", "komicho"],
+	"homepage": "https://github.com/komichoss/symbolicTime",
+	"authors": [
+		{
+			"name": "komicho",
+			"email": "komicho1996@gmail.com",
+			"homepage": "https://komicho.github.io/",
+			"role": "Developer"
+		}
+	],
+	"bin": [
+        "php-colors"
+    ],
+	"autoload": {
+		"psr-4": {
+			"komicho\\": "/src"
+		}
+	},
+	"autoload-dev": {
+        "psr-4": {
+            "komicho\\Test\\": "tests"
+        }
+    }
+}
